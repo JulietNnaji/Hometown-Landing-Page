@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #F7971E;
+    --main-color: #FFD200;
+    --secondary-color: #69B4CE;
+    --heading-font: "Playfair Display", serif;
+    --body-font: "Poppins", sans-serif;
+    --box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 10px 0px;
+  }
+  body {
+    background: var(--primary-color);
+background: -webkit-linear-gradient(to right, var(--main-color), var(--primary-color));  
+background: linear-gradient(to right, var(--main-color), var(--primary-color));
+  }
+
+  .navbar {
+    background: var(--primary-color);
+    background: -webkit-linear-gradient(to right, var(--main-color), var(--primary-color));  
+    background: linear-gradient(to right, var(--main-color), var(--primary-color));
+  }
+  
+  h1,
+  h2,
+  h3 {
+    font-family: var(--heading-font);
+  }
+  
+  p,
+  div {
+    font-family: var(--body-font);
+    font-size: 15px;
+  }
+  
+  
+section{
+    background: var(--secondary-color);
+    box-shadow: 0 5px 15px rgba(0 0 0 / 10%);
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    margin: 15px;  
+}
+.poem-section{
+    background: var(--main-color);
+    box-shadow: 0 5px 15px rgba(0 0 0 / 10%);
+    padding: 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    margin: 15px;  
+}
+
+.btn-primary{
+   display: block;
+   margin: 0 auto;
+   margin-top: 15px;
+   background: var(--primary-color);
+   border: var(--primary-color);
+}
+.btn-primary, a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn-primary:hover{
+    color: white;
+    background: var(--primary-color);
+   border: var(--primary-color);
+    text-decoration: none;
+}
+  
+  .social-media a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    transition: all 100ms ease-in-out;
+  }
+  .social-media a:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+  }  
+ 
+  
+  .mail {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: var(--body-font);
+  }
+  
+  .mail:hover, .source-code:hover {
+    color: var(--primary-color);
+    background: var(--secondary-color);
+  }
+  
+  .source-code, .code {
+    text-decoration: none;
+    color: black;
+    font-family: var(--body-font);
+    text-align: center;
+  }
