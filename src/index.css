@@ -29,7 +29,6 @@ background: linear-gradient(to right, var(--main-color), var(--primary-color));
     font-size: 15px;
   }
   
-  
 section{
     background: var(--secondary-color);
     box-shadow: 0 5px 15px rgba(0 0 0 / 10%);
